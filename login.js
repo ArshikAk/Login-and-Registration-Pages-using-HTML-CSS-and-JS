@@ -31,7 +31,7 @@ function validation(event)
    
     if(password.length < 8)
     {
-        document.getElementById("passwordError").innerHTML = "Password should be atleast 8 letters";
+        document.getElementById("passwordError").innerHTML = "Password should be atleast 8 characters";
         document.getElementById("passwordError").style.display = 'block';
         return false;
     }
